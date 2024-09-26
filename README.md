@@ -2,6 +2,18 @@
 Statistical techniques are methods used to analyze, interpret, and draw conclusions from data. These techniques are vital in both descriptive and inferential statistics, helping us understand patterns, relationships, and trends in datasets. Here are some of the most commonly used statistical techniques across different domains:
 
 ---
+### Check Statistical Test Assumptions
+1. Assumptions of Normality: Many statistical tests require the data to be normally distributed. Tools like Shapiro-Wilk’s W test and Kolmogorov-Smirnov test, along with skewness and kurtosis measures, are instrumental in assessing this assumption. Graphical methods, such as Q-Q plots, also provide visual confirmation of normality.
+
+2. Homogeneity of Variance: Levene’s test is commonly used to ensure that different groups have equal variances, a condition necessary for various analysis techniques.
+
+3. Homogeneity of Variance-Covariance Matrices: Box’s M test evaluates if groups differ in their variance-covariance matrices, an essential assumption for multivariate analysis.
+
+4. Randomness: The assumption that sample observations are random is fundamental, with the Run Test serving as a method to confirm this condition.
+
+5. Multicollinearity: High correlation among independent variables can distort regression analysis. The Variance Inflation Factor (VIF) and Condition Indices are tools used to detect multicollinearity, with VIF values greater than 10 indicating a violation of this assumption.
+6. linearity
+---
 
 ### Summary of Common Statistical Techniques
 

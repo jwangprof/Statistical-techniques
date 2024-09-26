@@ -1,5 +1,8 @@
 # Statistical-techniques
 Statistical techniques are methods used to analyze, interpret, and draw conclusions from data. These techniques are vital in both descriptive and inferential statistics, helping us understand patterns, relationships, and trends in datasets. Here are some of the most commonly used statistical techniques across different domains:
+
+---
+
 ### Summary of Common Statistical Techniques
 
 | **Technique**               | **Purpose**                                                   |
@@ -15,6 +18,7 @@ Statistical techniques are methods used to analyze, interpret, and draw conclusi
 | **Bayesian Inference**       | Update probabilities based on prior knowledge                 |
 | **Bootstrapping**            | Resample data to estimate statistical measures                |
 
+---
 ### **1. Descriptive Statistics**
 Descriptive statistics summarize and describe the features of a dataset, providing a snapshot of the data.
 
@@ -67,7 +71,25 @@ Inferential statistics are used to make inferences or predictions about a popula
    3. **Kruskal-Wallis Test**: A non-parametric version of ANOVA, used to compare more than two groups.
    4. **Friedman Test**: A non-parametric alternative to repeated-measures ANOVA.
 
+### Summary of Common Data issues
 
+| **Common Data Issue**       | **How to Handle**                                             |
+|-----------------------------|---------------------------------------------------------------|
+| **Missing Data**            | Imputation, removal, flagging                                 |
+| **Duplicated Data**         | Remove duplicates                                             |
+| **Outliers**                | Remove, Winsorize, or transform                               |
+| **Inconsistent Data**       | Standardize categories, formats                               |
+| **Skewness**                | Apply log, square root, or Box-Cox transformation             |
+| **Multicollinearity**       | Remove variables, regularization, PCA, Lasso/Ridge                         |
+| **Imbalanced Data**         | Resampling (SMOTE), use class weights                         |
+| **Scaling Data**            | StandardScaler, MinMaxScaler                                  |
+| **Categorical Data**        | One-hot encoding, label encoding                              |
+| **Data Leakage**            | Careful data splitting, avoid future data leakage             |
+| **Class Imbalance**         | Use oversampling/undersampling, class weights                 |
+| **High Dimensionality**     | PCA, feature selection                                        |
+| **Feature Engineering**     | Create new features, extract meaningful information           |
+| **Irrelevant Features**     | Feature selection techniques                                  |
+| **Temporal Data Issues**    | Maintain time order, use time-aware features                  |
 
 
 

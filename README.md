@@ -3,16 +3,26 @@ Statistical techniques are methods used to analyze, interpret, and draw conclusi
 
 ---
 ### Check Statistical Test Assumptions
-1. Assumptions of Normality: Many statistical tests require the data to be normally distributed. Tools like Shapiro-Wilk’s W test and Kolmogorov-Smirnov test, along with skewness and kurtosis measures, are instrumental in assessing this assumption. Graphical methods, such as Q-Q plots, also provide visual confirmation of normality.
+1. Linearity: Residual vs. Fitted Plot: A visual diagnostic to check if the relationship between the independent and dependent variables is linear. If the residuals show no discernible pattern, the assumption of linearity holds.
 
-2. Homogeneity of Variance: Levene’s test is commonly used to ensure that different groups have equal variances, a condition necessary for various analysis techniques.
+2. Assumptions of Normality: Many statistical tests require the data to be normally distributed. Tools like Shapiro-Wilk’s W test and Kolmogorov-Smirnov test, along with skewness and kurtosis measures, are instrumental in assessing this assumption. Graphical methods, such as Q-Q plots, also provide visual confirmation of normality.
+
+What Happens If the Residual Assumptions Are Violated?
+
+- 1. Non-linearity: You might need to try a more flexible model (e.g., polynomial regression or splines) or transform the independent variables.
+
+- 2. Heteroscedasticity: Apply a transformation to the dependent variable (e.g., log or square root) or use models that can handle non-constant variance, such as generalized least squares (GLS).
+
+- 3. Non-Normal Residuals: A non-normal distribution may require transformation of the dependent variable or the use of a robust regression model.
+Autocorrelation: You might need to consider time series models like ARIMA if residuals are correlated in a time-dependent manner.
+
+3. Homogeneity of Variance: Levene’s test is commonly used to ensure that different groups have equal variances, a condition necessary for various analysis techniques.
 
 3. Homogeneity of Variance-Covariance Matrices: Box’s M test evaluates if groups differ in their variance-covariance matrices, an essential assumption for multivariate analysis.
 
 4. Randomness: The assumption that sample observations are random is fundamental, with the Run Test serving as a method to confirm this condition.
 
 5. Multicollinearity: High correlation among independent variables can distort regression analysis. The Variance Inflation Factor (VIF) and Condition Indices are tools used to detect multicollinearity, with VIF values greater than 10 indicating a violation of this assumption.
-6. linearity
 ---
 
 ### Summary of Common Statistical Techniques
